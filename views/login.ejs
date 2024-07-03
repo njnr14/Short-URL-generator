@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            line-height: 1.42em;
+            color:#A7A1AE;
+            background-color:#1F2739;
+        }
+
+        h1 {
+            font-size:3em; 
+            font-weight: 300;
+            line-height:1em;
+            text-align: center;
+            color: #4DC3FA;
+        }
+
+        h2 {
+            font-size:1em; 
+            font-weight: 300;
+            text-align: center;
+            display: block;
+            line-height:1em;
+            padding-bottom: 2em;
+            color: #FB667A;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <h2><form action="/user/login" method="post">
+        <label>Email: </label>
+        <input type="text" name="email" required />
+        <label>Password: </label>
+        <input type="text" name="password" required />
+        <button type="submit">Login</button>
+    </form>
+    </h2>
+</body>
+</html>
